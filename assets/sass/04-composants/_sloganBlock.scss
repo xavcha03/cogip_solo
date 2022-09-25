@@ -1,0 +1,15 @@
+ .sloganBlock {
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     &__message {
+         font-family: $font-secondary;
+         font-weight: 900;
+         font-size: 65px;
+         line-height: 75px;
+     }
+
+     &__img {}
+ }
