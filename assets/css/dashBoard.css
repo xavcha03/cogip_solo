@@ -241,4 +241,22 @@ body {
   background-image: url("../img/Icon_contact.svg");
 }
 
+.logout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 18px;
+  border-top: 1px solid #E0E0E0;
+}
+.logout__avatar {
+  width: 48px;
+}
+.logout__link {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #9698D6;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=dashBoard.css.map */
