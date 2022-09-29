@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.lateralSection {
+    border: 1px solid blue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+
+.logout {
+    margin-top: auto;
+}
+
+.main {
+    border: 1px solid blue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    border: 1px solid red;
+}
+
+.mainContent {
+    border: 1px solid green;
+}
