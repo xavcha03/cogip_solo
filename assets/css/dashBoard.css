@@ -193,4 +193,14 @@ body {
   line-height: 29px;
 }
 
+.nav {
+  border: 1px solid red;
+}
+.nav__linksList {
+  border: 1px solid blue;
+}
+.nav__linksList__item {
+  border: 1px solid green;
+}
+
 /*# sourceMappingURL=dashBoard.css.map */
