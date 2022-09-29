@@ -1,0 +1,46 @@
+.tableSection {
+    margin-top: 52px;
+
+    &__title {
+        font-family: $font-secondary;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 73px;
+    }
+}
+
+
+.table {
+    width: 100%;
+    margin-top: 80px;
+    table-layout: fixed;
+
+    &__head {
+        background-color: $color-primary;
+
+        tr {
+
+
+
+            th {
+                text-align: left;
+                padding: 16px 34px;
+                width: auto;
+            }
+        }
+    }
+
+    &__body {
+        tr {
+            &:nth-child(even) {
+                background-color: $color-grey;
+            }
+
+            td {
+                padding: 16px 34px;
+
+
+            }
+        }
+    }
+}

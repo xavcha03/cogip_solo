@@ -1,0 +1,26 @@
+.icon {
+    padding-left: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &::before {
+        content: '';
+        width: 24px;
+        height: 24px;
+    }
+
+    &--position {
+        background-image: url('../img/position.svg');
+
+    }
+
+    &--phone {
+        background-image: url('../img/phone.svg');
+
+    }
+
+    &--fax {
+        background-image: url('../img/fax.svg');
+
+    }
+}
