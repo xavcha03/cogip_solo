@@ -176,4 +176,21 @@ body {
   border: 1px solid green;
 }
 
+.profil {
+  display: flex;
+  flex-direction: column;
+  padding: 54px 88px;
+  gap: 21px;
+  border-bottom: 1px solid #E0E0E0;
+}
+.profil__avatar {
+  width: 105px;
+}
+.profil__name {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 29px;
+}
+
 /*# sourceMappingURL=dashBoard.css.map */
