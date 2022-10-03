@@ -1,0 +1,41 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 96px;
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 75px;
+
+        .logo {
+            color: black;
+            font-size: 48px;
+            text-decoration: none;
+            font-weight: 900;
+
+        }
+    }
+
+    &__links {
+        display: flex;
+
+
+        li {}
+
+        &__item {
+            padding: 15px 20px;
+            color: black;
+            text-decoration: none;
+
+            &--selected {
+                border: 1px solid black
+            }
+        }
+    }
+
+    &__right {
+        display: flex;
+    }
+}

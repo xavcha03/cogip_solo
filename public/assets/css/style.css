@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Roboto:wght@500;900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.icon {
+  padding-left: 24px;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .icon::before {
+    content: '';
+    width: 24px;
+    height: 24px; }
+  .icon--position {
+    background-image: url("../img/position.svg"); }
+  .icon--phone {
+    background-image: url("../img/phone.svg"); }
+  .icon--fax {
+    background-image: url("../img/fax.svg"); }
+
+.btn {
+  background-color: white;
+  border-radius: 10px; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600; }
+
+.container {
+  width: 1193px;
+  margin: 0 auto; }
+
+.hero {
+  background-color: #F9DE4E;
+  padding-bottom: 112px;
+  background-image: url("../img/bottomImg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 0 center; }
+
+.tableSection {
+  margin-top: 52px; }
+  .tableSection__title {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 73px; }
+
+.table {
+  width: 100%;
+  margin-top: 80px;
+  table-layout: fixed; }
+  .table__head {
+    background-color: #F9DE4E; }
+    .table__head tr th {
+      text-align: left;
+      padding: 16px 34px;
+      width: auto; }
+  .table__body tr:nth-child(even) {
+    background-color: #F5F5F5; }
+  .table__body tr td {
+    padding: 16px 34px; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 60px 0 60px;
+  gap: 80px;
+  color: #737373;
+  font-size: 14px;
+  font-weight: 400; }
+  .footer__top {
+    border-top: 2px solid #F9DE4E;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .footer__top .logo {
+      border: 5px solid #F9DE4E;
+      font-family: "Roboto", sans-serif;
+      font-weight: 900;
+      font-size: 48px;
+      color: black;
+      text-decoration: none; }
+  .footer__contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px; }
+    .footer__contact__social {
+      display: flex;
+      gap: 1em;
+      align-items: center; }
+  .footer__phones {
+    display: flex;
+    justify-content: space-between; }
+  .footer .nav {
+    border-top: 2px solid #F5F5F5;
+    padding: 24px 0; }
+    .footer .nav__links__item {
+      color: #737373; }
+
+.sloganBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 96px; }
+  .sloganBlock__message {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 75px; }
+  .sloganBlock__img {
+    max-width: 700px; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 96px; }
+  .nav__left {
+    display: flex;
+    align-items: center;
+    gap: 75px; }
+    .nav__left .logo {
+      color: black;
+      font-size: 48px;
+      text-decoration: none;
+      font-weight: 900; }
+  .nav__links {
+    display: flex; }
+    .nav__links__item {
+      padding: 15px 20px;
+      color: black;
+      text-decoration: none; }
+      .nav__links__item--selected {
+        border: 1px solid black; }
+  .nav__right {
+    display: flex; }
+
+/*# sourceMappingURL=style.css.map */
