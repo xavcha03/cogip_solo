@@ -20,7 +20,7 @@ class HomeController extends Controller
      */
 
      public function dashboard(){
-        return $this->view('dashboard',[]);
+        return $this->view('dashboard/resume',[]);
      }
     
 }
